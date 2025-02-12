@@ -14,12 +14,12 @@ const Register = async ({ params: { userId } }: SearchParamProps) => {
           <Image 
           src="/assets/icons/logo-full.svg"
           height={1000}
-          width={1000} 
+          width={1000}
           alt="patient"
           className="mb-12 h-10 w-fit"
           />
 
-        <RegisterForm user={user}/>  
+        <RegisterForm user={user}/> 
 
           <p className="copyright py-12">
             © 2024 CarePulse 

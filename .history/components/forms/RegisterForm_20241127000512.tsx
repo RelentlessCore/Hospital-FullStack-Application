@@ -8,7 +8,7 @@ import CustomFormField from "../CustomFormField";
 import SubmitButton from "../SubmitButton";
 import { PatientFormValidation, UserFormValidation } from "@/lib/validation";
 import { useRouter } from "next/navigation";
-import { createUser, registerPatient } from "@/lib/actions/patient.actions";
+import { createUser } from "@/lib/actions/patient.actions";
 import { useState } from "react";
 import { FormFieldType } from "./PatientForm";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
@@ -28,7 +28,7 @@ const RegisterForm = ({ user }: { user: User }) => {
     resolver: zodResolver(PatientFormValidation),
     defaultValues: {
       ...PatientFormDefaultValues,
-      name: "", 
+      name: "",
       email: "",
       phone: "",
     },
@@ -58,7 +58,7 @@ const RegisterForm = ({ user }: { user: User }) => {
       }
 
       // @ts-ignore
-      const patient = await registerPatient(patientData);
+      // const patient = await registerPatient(patientData);
 
       if(patient) router.push(`/patients/${user.$id}/new-appointment`)
     } catch (error) {
