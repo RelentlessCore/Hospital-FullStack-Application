@@ -13,7 +13,7 @@ export default function Home() {
           src="/assets/icons/logo-full.svg"
           height={1000}
           width={1000}  
-          alt="patient"
+          alt="patient" 
           className="mb-12 h-10 w-fit"
           />
 
