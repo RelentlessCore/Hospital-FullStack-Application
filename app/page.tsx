@@ -28,7 +28,7 @@ export default function Home() {
             </Link>
         </div>
         </div>
-      </section>
+      </section> 
 
       <Image
         src="/assets/images/onboarding-img.png"
