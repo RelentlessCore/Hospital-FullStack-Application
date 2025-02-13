@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex h-screen max-h-screen">
+    <div className="flex h-screen max-h-screen"> 
       {/* TODO: OTP Verification | PasskeyModal */} 
  
       <section className="remove-scrollbar container my-auto">
