@@ -6,7 +6,7 @@ interface StatCardProps {
   type: "appointments" | "pending" | "cancelled";
   count: number;
   label: string;
-  icon: string; 
+  icon: string;  
 }
 
 const StatCard = ({ count = 0, label, icon, type }: StatCardProps) => {
