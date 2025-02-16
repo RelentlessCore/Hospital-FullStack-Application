@@ -4,7 +4,7 @@ import React from "react";
 
 interface StatCardProps {
   type: "appointments" | "pending" | "cancelled";
-  count: number;
+  count: number; 
   label: string; 
   icon: string;     
 }   
