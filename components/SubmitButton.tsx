@@ -27,7 +27,7 @@ const SubmitButton = ({ isLoading, className, children }: ButtonProps) => {
         </div>
       ): children}
     </Button>
-  );
+  ); 
 };
 
 export default SubmitButton;
