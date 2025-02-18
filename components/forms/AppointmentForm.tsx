@@ -33,7 +33,7 @@ const AppointmentForm = ({
   appointment?: Appointment;
   setOpen: (open: boolean) => void;
 }) => {
-  const router = useRouter();
+  const router = useRouter(); 
   const [isLoading, setIsLoading] = useState(false);
 
   const AppointmentFormValidation = getAppointmentSchema(type);
