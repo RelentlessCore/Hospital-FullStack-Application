@@ -31,3 +31,5 @@ const StatusBadge = ({ status }: { status: Status }) => {
     </div>
   );
 };
+
+export default StatusBadge;
