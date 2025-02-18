@@ -10,7 +10,7 @@ import SubmitButton from "../SubmitButton";
 import {
   AppointmentFormValidation,
   getAppointmentSchema,  
-} from "@/lib/validation"; 
+} from "@/lib/validation";  
 import { useRouter } from "next/navigation";
 import { createUser } from "@/lib/actions/patient.actions";
 import { useState } from "react"; 
