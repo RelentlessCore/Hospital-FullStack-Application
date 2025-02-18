@@ -9,7 +9,7 @@ import CustomFormField from "../CustomFormField";
 import SubmitButton from "../SubmitButton";
 import {
   AppointmentFormValidation,
-  getAppointmentSchema, 
+  getAppointmentSchema,  
 } from "@/lib/validation"; 
 import { useRouter } from "next/navigation";
 import { createUser } from "@/lib/actions/patient.actions";
