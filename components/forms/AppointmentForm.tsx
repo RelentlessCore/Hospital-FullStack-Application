@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { Form } from "@/components/ui/form"; 
-import CustomFormField from "../CustomFormField";
+import CustomFormField from "../CustomFormField"; 
 import SubmitButton from "../SubmitButton";
 import {
   AppointmentFormValidation,
