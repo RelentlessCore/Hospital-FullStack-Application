@@ -1,6 +1,6 @@
-# 🚀 CarePulse – Healthcare Management System  
+# 🚀 Healthcare Management System  
 
-CarePulse is a **modern, full-stack healthcare management platform** designed to streamline **patient registration, appointment scheduling, and medical record management**. Built with **Next.js, React, and TypeScript**, it delivers a seamless experience with **real-time SMS notifications, secure authentication, and an intuitive admin dashboard** for managing appointments efficiently.  
+A **modern, full-stack healthcare management platform** designed to streamline **patient registration, appointment scheduling, and medical record management**. Built with **Next.js, React, and TypeScript**, it delivers a seamless experience with **real-time SMS notifications, secure authentication, and an intuitive admin dashboard** for managing appointments efficiently.  
 
 ## ✨ Features  
 
@@ -46,23 +46,17 @@ CarePulse is a **modern, full-stack healthcare management platform** designed to
 ### **Schedule & Cancel Appointments**  
 ![Admin Actions](https://github.com/user-attachments/assets/abca79b3-6589-4255-bb51-185cc5aa2e40)  
 
-### **CarePulse Interface**  
-![CarePulse](https://github.com/user-attachments/assets/90c73c54-be50-4114-871d-1f30032ab81c)  
+### **Application Interface**  
+![Interface](https://github.com/user-attachments/assets/90c73c54-be50-4114-871d-1f30032ab81c)  
 
 ---
 
-## 🚀 Why CarePulse?  
+## 🚀 Why This Stands Out  
 
-CarePulse isn’t just another healthcare platform—it’s a **game-changer** in hospital management. Designed with **efficiency, security, and scalability in mind**, it eliminates long wait times, ensures **hassle-free patient check-ins**, and gives admins **total control** over appointment workflows.  
+This isn’t just another healthcare platform—it’s a **game-changer** in hospital management. Designed with **efficiency, security, and scalability in mind**, it eliminates long wait times, ensures **hassle-free patient check-ins**, and gives admins **total control** over appointment workflows.  
 
-With **real-time SMS updates**, **role-based access control**, and a **smooth, modern UI**, CarePulse redefines **what a healthcare platform should be**.  
-
----
-
-## 📄 License  
-
-This project is **open-source** and licensed under the **MIT License**.  
+With **real-time SMS updates**, **role-based access control**, and a **smooth, modern UI**, this platform redefines **what a healthcare system should be**.  
 
 ---
 
-CarePulse is the future of healthcare management—built for speed, security, and seamless patient experiences. 🚀🔥
+Built for **speed, security, and seamless user experiences.** 🚀🔥
