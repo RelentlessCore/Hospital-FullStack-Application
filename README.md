@@ -2,6 +2,8 @@
 
 CarePulse is a **modern, full-stack healthcare management platform** designed to streamline **patient registration, appointment scheduling, and medical record management**. Built with **Next.js, React, and TypeScript**, it delivers a seamless experience with **real-time SMS notifications, secure authentication, and an intuitive admin dashboard** for managing appointments efficiently.  
 
+![CarePulse](https://github.com/user-attachments/assets/90c73c54-be50-4114-871d-1f30032ab81c)
+
 ## ✨ Features  
 
 ✅ **Secure OTP Authentication** – Ensuring patient data privacy and access control.  
@@ -19,16 +21,7 @@ CarePulse is a **modern, full-stack healthcare management platform** designed to
 
 - **Frontend:** React, Next.js, TypeScript, Tailwind CSS, ShadCN  
 - **Backend:** Appwrite (Database & Authentication)  
-- **Notifications:** Twilio (Real-time SMS updates)
-
-- ![7](https://github.com/user-attachments/assets/9691a1e3-fb1f-449a-b787-0fba37d80b0f)
-![6](https://github.com/user-attachments/assets/c6fb3599-c279-49fb-a0b1-3a021ea52a2d)
-![5](https://github.com/user-attachments/assets/3c068b81-ec83-4e0d-8f97-7b24cf6a6f90)
-![4](https://github.com/user-attachments/assets/d7c3e1a5-90d3-4182-b924-eba2d1cfda77)
-![3](https://github.com/user-attachments/assets/5e895be4-fa66-4e24-a69c-683eca82163c)
-![2](https://github.com/user-attachments/assets/41f88476-f79f-40c6-b150-52eb3089ed8f)
-![8](https://github.com/user-attachments/assets/dbd146db-336f-4151-b199-a5b333e64d5d)
-
+- **Notifications:** Twilio (Real-time SMS updates)  
 
 ---
 
@@ -37,15 +30,15 @@ CarePulse is a **modern, full-stack healthcare management platform** designed to
 ### **User Experience**  
 | **Patient Registration** | **Admin Access Verification** | **Medical History Form** |  
 |----------------------|-------------------------|----------------------|  
-| ![Patient Registration](![1](https://github.com/user-attachments/assets/90382fa9-e1ed-4352-91e2-d6eeed237b88)) | ![Admin Verification](./2.png) | ![Medical Form](./3.png) |  
+| ![Patient Registration](https://github.com/user-attachments/assets/0b7ba488-357e-46ca-86e7-3a4a2b17856b) | ![Admin Verification](https://github.com/user-attachments/assets/087d645b-6515-48d5-ac97-7baeb42aa037) | ![Medical Form](https://github.com/user-attachments/assets/2577caa4-a3cf-448f-9524-6ffe96a2c1bb) |  
 
 | **Appointment Booking** | **Confirmation Screen** | **Admin Dashboard** |  
 |----------------------|--------------------|----------------|  
-| ![Booking](./4.png) | ![Confirmation](./5.png) | ![Admin Dashboard](./6.png) |  
+| ![Booking](https://github.com/user-attachments/assets/69bfd269-1d4d-4a0e-b06c-aea4af735997) | ![Confirmation](https://github.com/user-attachments/assets/5f1fe08a-0934-404a-a5cd-4b0805565b64) | ![Admin Dashboard](https://github.com/user-attachments/assets/ea8f3aee-6cd3-415b-ae57-146b89114fb0) |  
 
 | **Schedule & Cancel Appointments** |  
 |---------------------------------|  
-| ![Admin Actions](./7.png) |  
+| ![Admin Actions](https://github.com/user-attachments/assets/abca79b3-6589-4255-bb51-185cc5aa2e40) |  
 
 ---
 
