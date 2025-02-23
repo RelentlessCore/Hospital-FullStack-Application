@@ -32,29 +32,20 @@ const PasskeyModal = () => {
       ? window.localStorage.getItem("accessKey")
       : null;
 
-  useEffect(() => {
-    const accessKey = encryptedKey && decryptKey(encryptedKey);
-
-    if (path) {
-      if (accessKey === process.env.NEXT_PUBLIC_ADMIN_PASSKEY) {
-        setOpen(false);
-        router.push("/admin");
-      } else {
-        setOpen(true);
-      }
-    }
-  }, [encryptedKey]);
-
   const validatePasskey = (
     e: React.MouseEvent<HTMLButtonElement, MouseEvent>
   ) => {
     e.preventDefault();
+
     if (passkey === process.env.NEXT_PUBLIC_ADMIN_PASSKEY) {
-      const encryptedKey = encryptKey(passkey);
+      // Store the encrypted passkey (optional for tracking)
+      localStorage.setItem("accessKey", encryptKey(passkey));
 
-      localStorage.setItem("accessKey", encryptedKey);
-
+      // Close the modal
       setOpen(false);
+
+      // Redirect to the admin page after successful passkey entry
+      router.push("/admin");
     } else {
       setError("Invalid passkey. Please try again.");
     }
@@ -62,11 +53,11 @@ const PasskeyModal = () => {
 
   const closeModal = () => {
     setOpen(false);
-    router.push("/");
+    router.push("/"); // Always redirect to home when closing
   };
 
   return (
-    <AlertDialog open={open} onOpenChange={setOpen}>
+    <AlertDialog open={open} onOpenChange={() => setOpen(false)}>
       <AlertDialogContent className="shad-alert-dialog">
         <AlertDialogHeader>
           <AlertDialogTitle className="flex items-start justify-between">
@@ -76,7 +67,7 @@ const PasskeyModal = () => {
               alt="close"
               width={20}
               height={20}
-              onClick={() => closeModal()}
+              onClick={closeModal}
               className="cursor-pointer"
             />
           </AlertDialogTitle>

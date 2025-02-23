@@ -7,7 +7,7 @@ export default function Home({ searchParams }: SearchParamProps) {
   const isAdmin = searchParams.admin === "true";
   return (
     <div className="flex h-screen max-h-screen">
-      {/* TODO: OTP Verification | PasskeyModal */}
+      {isAdmin && <PasskeyModal />}
 
       <section className="remove-scrollbar container my-auto">
         <div className="sub-container max-w-[496px]">
@@ -25,7 +25,7 @@ export default function Home({ searchParams }: SearchParamProps) {
             <p className="justify-items-end text-dark-600 xl:text-left">
               © 2025 CarePulse
             </p>
-            <Link href="/admin" className="text-green-500">
+            <Link href="/?admin=true" className="text-green-500">
               Admin
             </Link>
           </div>
