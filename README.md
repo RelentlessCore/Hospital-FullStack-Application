@@ -2,8 +2,6 @@
 
 CarePulse is a **modern, full-stack healthcare management platform** designed to streamline **patient registration, appointment scheduling, and medical record management**. Built with **Next.js, React, and TypeScript**, it delivers a seamless experience with **real-time SMS notifications, secure authentication, and an intuitive admin dashboard** for managing appointments efficiently.  
 
-![CarePulse](https://github.com/user-attachments/assets/90c73c54-be50-4114-871d-1f30032ab81c)
-
 ## ✨ Features  
 
 ✅ **Secure OTP Authentication** – Ensuring patient data privacy and access control.  
@@ -29,16 +27,20 @@ CarePulse is a **modern, full-stack healthcare management platform** designed to
 
 ### **User Experience**  
 | **Patient Registration** | **Admin Access Verification** | **Medical History Form** |  
-|----------------------|-------------------------|----------------------|  
-| ![Patient Registration](https://github.com/user-attachments/assets/0b7ba488-357e-46ca-86e7-3a4a2b17856b) | ![Admin Verification](https://github.com/user-attachments/assets/087d645b-6515-48d5-ac97-7baeb42aa037) | ![Medical Form](https://github.com/user-attachments/assets/2577caa4-a3cf-448f-9524-6ffe96a2c1bb) |  
+|:----------------------:|:-------------------------:|:----------------------:|  
+| <img src="https://github.com/user-attachments/assets/0b7ba488-357e-46ca-86e7-3a4a2b17856b" width="800"> | <img src="https://github.com/user-attachments/assets/087d645b-6515-48d5-ac97-7baeb42aa037" width="800"> | <img src="https://github.com/user-attachments/assets/2577caa4-a3cf-448f-9524-6ffe96a2c1bb" width="800"> |  
 
 | **Appointment Booking** | **Confirmation Screen** | **Admin Dashboard** |  
-|----------------------|--------------------|----------------|  
-| ![Booking](https://github.com/user-attachments/assets/69bfd269-1d4d-4a0e-b06c-aea4af735997) | ![Confirmation](https://github.com/user-attachments/assets/5f1fe08a-0934-404a-a5cd-4b0805565b64) | ![Admin Dashboard](https://github.com/user-attachments/assets/ea8f3aee-6cd3-415b-ae57-146b89114fb0) |  
+|:----------------------:|:--------------------:|:----------------:|  
+| <img src="https://github.com/user-attachments/assets/69bfd269-1d4d-4a0e-b06c-aea4af735997" width="800"> | <img src="https://github.com/user-attachments/assets/5f1fe08a-0934-404a-a5cd-4b0805565b64" width="800"> | <img src="https://github.com/user-attachments/assets/ea8f3aee-6cd3-415b-ae57-146b89114fb0" width="800"> |  
 
 | **Schedule & Cancel Appointments** |  
-|---------------------------------|  
-| ![Admin Actions](https://github.com/user-attachments/assets/abca79b3-6589-4255-bb51-185cc5aa2e40) |  
+|:---------------------------------:|  
+| <img src="https://github.com/user-attachments/assets/abca79b3-6589-4255-bb51-185cc5aa2e40" width="800"> |  
+
+| **CarePulse Interface** |  
+|:----------------------:|  
+| <img src="https://github.com/user-attachments/assets/90c73c54-be50-4114-871d-1f30032ab81c" width="800"> |  
 
 ---
 
