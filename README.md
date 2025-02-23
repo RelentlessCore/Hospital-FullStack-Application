@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 CarePulse – Healthcare Management System  
 
-## Getting Started
+CarePulse is a **modern, full-stack healthcare management platform** designed to streamline **patient registration, appointment scheduling, and medical record management**. Built with **Next.js, React, and TypeScript**, it delivers a seamless experience with **real-time SMS notifications, secure authentication, and an intuitive admin dashboard** for managing appointments efficiently.  
 
-First, run the development server:
- 
-```bash  
-npm run dev
-# or
-yarn dev  
-# or  
-pnpm dev     
-# or  
-bun dev 
-``` 
- 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Features  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+✅ **Secure OTP Authentication** – Ensuring patient data privacy and access control.  
+✅ **Real-Time SMS Notifications** – Instant updates for appointment confirmations and cancellations.  
+✅ **Seamless Appointment Scheduling** – Book, reschedule, or cancel appointments effortlessly.  
+✅ **Comprehensive Admin Dashboard** – Manage, approve, and track patient bookings in one place.  
+✅ **File Uploads & Medical Records** – Securely store and access patient documents.  
+✅ **Fully Responsive Design** – Optimized for mobile, tablet, and desktop.  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+> **Note:** The password to access the **Admin Panel** is `123456`.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🔥 Tech Stack  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Frontend:** React, Next.js, TypeScript, Tailwind CSS, ShadCN  
+- **Backend:** Appwrite (Database & Authentication)  
+- **Notifications:** Twilio (Real-time SMS updates)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- ![7](https://github.com/user-attachments/assets/9691a1e3-fb1f-449a-b787-0fba37d80b0f)
+![6](https://github.com/user-attachments/assets/c6fb3599-c279-49fb-a0b1-3a021ea52a2d)
+![5](https://github.com/user-attachments/assets/3c068b81-ec83-4e0d-8f97-7b24cf6a6f90)
+![4](https://github.com/user-attachments/assets/d7c3e1a5-90d3-4182-b924-eba2d1cfda77)
+![3](https://github.com/user-attachments/assets/5e895be4-fa66-4e24-a69c-683eca82163c)
+![2](https://github.com/user-attachments/assets/41f88476-f79f-40c6-b150-52eb3089ed8f)
+![1](https://github.com/user-attachments/assets/90382fa9-e1ed-4352-91e2-d6eeed237b88)
+![8](https://github.com/user-attachments/assets/dbd146db-336f-4151-b199-a5b333e64d5d)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📸 Screenshots  
+
+### **User Experience**  
+| **Patient Registration** | **Admin Access Verification** | **Medical History Form** |  
+|----------------------|-------------------------|----------------------|  
+| ![Patient Registration](./1.png) | ![Admin Verification](./2.png) | ![Medical Form](./3.png) |  
+
+| **Appointment Booking** | **Confirmation Screen** | **Admin Dashboard** |  
+|----------------------|--------------------|----------------|  
+| ![Booking](./4.png) | ![Confirmation](./5.png) | ![Admin Dashboard](./6.png) |  
+
+| **Schedule & Cancel Appointments** |  
+|---------------------------------|  
+| ![Admin Actions](./7.png) |  
+
+---
+
+## 🚀 Why CarePulse?  
+
+CarePulse isn’t just another healthcare platform—it’s a **game-changer** in hospital management. Designed with **efficiency, security, and scalability in mind**, it eliminates long wait times, ensures **hassle-free patient check-ins**, and gives admins **total control** over appointment workflows.  
+
+With **real-time SMS updates**, **role-based access control**, and a **smooth, modern UI**, CarePulse redefines **what a healthcare platform should be**.  
+
+---
+
+## 📄 License  
+
+This project is **open-source** and licensed under the **MIT License**.  
+
+---
+
+CarePulse is the future of healthcare management—built for speed, security, and seamless patient experiences. 🚀🔥
