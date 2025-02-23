@@ -27,7 +27,6 @@ CarePulse is a **modern, full-stack healthcare management platform** designed to
 ![4](https://github.com/user-attachments/assets/d7c3e1a5-90d3-4182-b924-eba2d1cfda77)
 ![3](https://github.com/user-attachments/assets/5e895be4-fa66-4e24-a69c-683eca82163c)
 ![2](https://github.com/user-attachments/assets/41f88476-f79f-40c6-b150-52eb3089ed8f)
-![1](https://github.com/user-attachments/assets/90382fa9-e1ed-4352-91e2-d6eeed237b88)
 ![8](https://github.com/user-attachments/assets/dbd146db-336f-4151-b199-a5b333e64d5d)
 
 
@@ -38,7 +37,7 @@ CarePulse is a **modern, full-stack healthcare management platform** designed to
 ### **User Experience**  
 | **Patient Registration** | **Admin Access Verification** | **Medical History Form** |  
 |----------------------|-------------------------|----------------------|  
-| ![Patient Registration](./1.png) | ![Admin Verification](./2.png) | ![Medical Form](./3.png) |  
+| ![Patient Registration](![1](https://github.com/user-attachments/assets/90382fa9-e1ed-4352-91e2-d6eeed237b88)) | ![Admin Verification](./2.png) | ![Medical Form](./3.png) |  
 
 | **Appointment Booking** | **Confirmation Screen** | **Admin Dashboard** |  
 |----------------------|--------------------|----------------|  
